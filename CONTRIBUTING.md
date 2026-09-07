@@ -6,9 +6,9 @@
 
 ## 📌 Criterios de Aceptación
 Para mantener la calidad y el valor práctico del repositorio:
-1. **Probado en batalla:** Los prompts, skills o scripts deben haber sido testeados en proyectos o flujos reales (evitar volcados teóricos sin validar).
+1. **Testeo previo:** Los prompts, skills o scripts deben haber sido testeados en proyectos o flujos reales (evitar volcados teóricos sin validar).
 2. **Sin datos sensibles:** Asegurate de no incluir API keys, tokens privados, nombres de clientes confidenciales ni datos personales.
-3. **Estructura clara:** Cada aporte debe contar con una breve descripción de *Qué hace*, *Cuándo usarlo* y *Cómo implementarlo*.
+3. **Estructura clara:** Para la organizacion de nuestros repositorios, es importante que cada aporte cuente con una breve descripción de *Qué hace*, *Cuándo usarlo* y *Cómo implementarlo*.
 
 ---
 
@@ -33,4 +33,4 @@ Para mantener la calidad y el valor práctico del repositorio:
    ```bash
    git push origin aporte/mi-prompt-o-skill
    ```
-7. En GitHub, abrí un **Pull Request** hacia la rama `main` de `HumanCowork/awesome-human-cowork`. La Mesa Chica lo revisa y lo aprueba.
+7. En GitHub, abrí un **Pull Request** hacia la rama `main` de `HumanCowork/awesome-human-cowork`. Una vez aprobado, se procederá a subirlo al main.
