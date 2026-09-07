@@ -1,6 +1,6 @@
 # 🚀 Awesome Human Cowork
 
-> Hub público y colaborativo de recursos, habilidades para agentes de IA, prompts de trinchera y automatizaciones de **Human Cowork** (Córdoba Capital, Argentina).
+> Hub público y colaborativo de recursos, habilidades para agentes de IA, prompts y automatizaciones de **Human Cowork** (Córdoba Capital, Argentina).
 
 [![Human Cowork](https://img.shields.io/badge/Comunidad-Human%20Cowork-brightgreen)](https://github.com/HumanCowork)
 [![Córdoba Argentina](https://img.shields.io/badge/Origen-C%C3%B3rdoba%2C%20Argentina-blue)](#)
