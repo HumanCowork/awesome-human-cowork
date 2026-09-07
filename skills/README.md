@@ -7,6 +7,8 @@ Las **Skills** son paquetes de instrucciones operativas, buenas prácticas y her
 ## 📦 Skills Disponibles en la Biblioteca
 
 * 🏗️ **[SDD Framework Suite (Spec-Driven Development)](sdd-framework/)**: Metodología completa de 9 fases para gobernar agentes de IA con especificaciones formales antes de codificar.
+* 🛠️ **[Skill Creator](skill-creator/)**: Protocolo meta-estándar para diseñar, estructurar y empaquetar nuevas skills de agentes de IA con convenciones canónicas.
+
 
 ## 📦 Categorías de Skills
 
