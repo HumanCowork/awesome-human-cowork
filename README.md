@@ -33,7 +33,7 @@ Este repositorio crece gracias a la comunidad. Si tenés un prompt que te ahorr�
 1. Lee nuestra **[Guía de Contribución](CONTRIBUTING.md)**.
 2. Hacé un fork del repositorio.
 3. Creá una rama (`feature/mi-aporte`).
-4. Abrí un **Pull Request**. La Mesa Chica lo revisa y lo mergea para todos.
+4. Abrí un **Pull Request**. Una vez revisado se mergea para todos.
 
 ---
 
