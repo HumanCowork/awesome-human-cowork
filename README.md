@@ -8,13 +8,9 @@
 
 ---
 
-## 🧭 Manifiesto & Propósito
+## 🧭 Propósito
 
-**Human Cowork** es un polo de colaboración en red y hub tecnológico donde desarrolladores, fundadores de agencias e integradores de Inteligencia Artificial rompemos el aislamiento del trabajo solitario.
-
-Creemos en la **co-opetencia** (cooperar estratégicamente y competir sanamente en el mercado) y en el **apalancamiento exponencial con IA manteniendo siempre el criterio humano al mando**. 
-
-Este repositorio es una infraestructura compartida: cualquier miembro o entusiasta de la tecnología puede explorar, descargar, utilizar y mejorar estos recursos.
+Este repositorio es una infraestructura compartida: cualquier miembro o entusiasta del desarrollo y el emprendimiento puede explorar, descargar, utilizar y mejorar estos recursos.
 
 ---
 
