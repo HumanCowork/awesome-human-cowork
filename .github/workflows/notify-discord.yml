@@ -1,0 +1,62 @@
+name: Notify Discord on PR Merged
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  notify:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_AUTHOR_AVATAR: ${{ github.event.pull_request.user.avatar_url }}
+          PR_MERGED_BY: ${{ github.event.pull_request.merged_by.login }}
+        run: |
+          python3 -c "
+          import os, json, urllib.request
+
+          webhook_url = os.environ['DISCORD_WEBHOOK_URL']
+          title = os.environ.get('PR_TITLE', '')
+          number = os.environ.get('PR_NUMBER', '')
+          url = os.environ.get('PR_URL', '')
+          body = os.environ.get('PR_BODY', '')
+          author = os.environ.get('PR_AUTHOR', '')
+          author_avatar = os.environ.get('PR_AUTHOR_AVATAR', '')
+          merged_by = os.environ.get('PR_MERGED_BY', '')
+
+          embed = {
+              'title': f'🎉 Recurso Oficial Incorporado: #{number} {title}',
+              'url': url,
+              'description': body if body else 'Aporte mergeado oficialmente a la biblioteca.',
+              'color': 1096065,
+              'author': {
+                  'name': f'Aporte de @{author}',
+                  'icon_url': author_avatar
+              },
+              'footer': {
+                  'text': f'Aprobado por @{merged_by} • Human Cowork'
+              }
+          }
+
+          payload = json.dumps({
+              'username': 'Awesome Human Cowork',
+              'avatar_url': 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
+              'embeds': [embed]
+          }).encode('utf-8')
+
+          req = urllib.request.Request(
+              webhook_url,
+              data=payload,
+              headers={'Content-Type': 'application/json', 'User-Agent': 'GitHub-Actions'}
+          )
+          urllib.request.urlopen(req)
+          print('Successfully sent Discord notification!')
+          "
