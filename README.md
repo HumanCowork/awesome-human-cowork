@@ -39,9 +39,11 @@ Este repositorio crece gracias a la comunidad. Si tenés un prompt que te ahorr�
 
 ## 📍 Comunidad y Encuentros
 
-- **Instagram Oficial:** Próximamente anunciado en pantalla con QR en cada evento.
-- **Encuentros Presenciales:** Córdoba Capital (frecuencia quincenal / mensual).
-- **Gobernanza y Agendas:** Administradas en el repositorio privado de la Mesa Chica.
+- ☎️​ **Discord:** [Human Cowork](https://discord.gg/BXcWzan8x)
+- 📸 **Instagram:** [@humancoworkcba](https://instagram.com/humancoworkcba)
+- 👨‍💻​ **Linkedin:** [Human Cowork](https://www.linkedin.com/in/humancowork/)
+- 💻 **GitHub:** Explorá nuestros recursos abiertos y sumá tus aportes mediante PRs.
+- **Encuentros Presenciales:** Córdoba Capital.
 
 ---
 
