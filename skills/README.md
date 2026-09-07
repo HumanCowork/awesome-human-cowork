@@ -4,6 +4,10 @@ Las **Skills** son paquetes de instrucciones operativas, buenas prácticas y her
 
 ---
 
+## 📦 Skills Disponibles en la Biblioteca
+
+* 🏗️ **[SDD Framework Suite (Spec-Driven Development)](sdd-framework/)**: Metodología completa de 9 fases para gobernar agentes de IA con especificaciones formales antes de codificar.
+
 ## 📦 Categorías de Skills
 
 1. **Arquitectura y Clean Code:** Principios de diseño sólido, container-presentational pattern, screaming architecture.
