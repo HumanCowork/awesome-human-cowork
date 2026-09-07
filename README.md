@@ -23,7 +23,7 @@ Este repositorio es una infraestructura compartida: cualquier miembro o entusias
 | Sección | Descripción | Acceso |
 | :--- | :--- | :---: |
 | **🧠 [Skills para Agentes](skills/)** | Habilidades empaquetadas para asistentes de IA (Antigravity, Cursor, etc.). | [Explorar](skills/) |
-| **💬 [Banco de Prompts](prompts/)** | Prompts testeados en batalla para desarrollo, ventas de agencias y producto. | [Explorar](prompts/) |
+| **💬 [Prompts](prompts/)** | Prompts testeados en batalla para desarrollo, ventas de agencias y producto. | [Explorar](prompts/) |
 | **⚙️ [Automatizaciones](automatizaciones/)** | Flujos de N8N listos para importar y scripts de scraping/captación. | [Explorar](automatizaciones/) |
 | **📋 [Plantillas de Trabajo](plantillas/)** | Fichas operativas para dinámicas comunitarias (ej. Banco de Problemas). | [Explorar](plantillas/) |
 | **📚 [Guías Técnicas](guias/)** | Guías rápidas sobre IA local, herramientas SOTA y buenas prácticas. | [Explorar](guias/) |
