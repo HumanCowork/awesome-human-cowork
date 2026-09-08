@@ -1,4 +1,4 @@
-# 💬 Banco de Prompts de Trinchera
+# 💬 Banco de Prompts
 
 Colección de prompts probados por desarrolladores y agencias de la comunidad para resolver problemas concretos de producción.
 
