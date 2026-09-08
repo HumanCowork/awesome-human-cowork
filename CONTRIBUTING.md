@@ -9,6 +9,7 @@ Para mantener la calidad y el valor práctico del repositorio:
 1. **Testeo previo:** Los prompts, skills o scripts deben haber sido testeados en proyectos o flujos reales (evitar volcados teóricos sin validar).
 2. **Sin datos sensibles:** Asegurate de no incluir API keys, tokens privados, nombres de clientes confidenciales ni datos personales.
 3. **Estructura clara:** Para la organizacion de nuestros repositorios, es importante que cada aporte cuente con una breve descripción de *Qué hace*, *Cuándo usarlo* y *Cómo implementarlo*.
+4. **Contribución con Agentes de IA:** Si utilizás un asistente autónomo (Antigravity, Cursor, Claude Code, Windsurf), debe seguir las directivas de **[AGENTS.md](AGENTS.md)** para introspección dinámica de catálogos y formato seguro de PRs.
 
 ---
 
