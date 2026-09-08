@@ -2,14 +2,21 @@
   <img src="https://raw.githubusercontent.com/HumanCowork/awesome-human-cowork/main/.github/assets/release-v1-banner.svg" alt="Awesome Human Cowork Release v1.0.0" width="100%" />
 </p>
 
-
 # 🚀 Awesome Human Cowork v1.0.0
 
 > Hub público y colaborativo de recursos, habilidades para agentes de IA, prompts y automatizaciones de **Human Cowork** (Córdoba Capital, Argentina).
 
+<div align="center">
+
 [![Human Cowork](https://img.shields.io/badge/Comunidad-Human%20Cowork-brightgreen)](https://github.com/HumanCowork)
 [![Córdoba Argentina](https://img.shields.io/badge/Origen-C%C3%B3rdoba%2C%20Argentina-blue)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+<br>
+
+[**🧠 SKILLS**](skills/) • [**💬 PROMPTS**](prompts/) • [**⚙️ AUTOMATIZACIONES**](automatizaciones/) • [**📋 PLANTILLAS**](plantillas/) • [**🤝 CONTRIBUIR**](CONTRIBUTING.md) • [**💬 DISCORD**](https://discord.gg/BXcWzan8x)
+
+</div>
 
 ---
 
