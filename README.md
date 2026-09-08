@@ -1,4 +1,9 @@
-# 🚀 Awesome Human Cowork
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HumanCowork/awesome-human-cowork/main/.github/assets/release-v1-banner.svg" alt="Awesome Human Cowork Release v1.0.0" width="100%" />
+</p>
+
+
+# 🚀 Awesome Human Cowork v1.0.0
 
 > Hub público y colaborativo de recursos, habilidades para agentes de IA, prompts y automatizaciones de **Human Cowork** (Córdoba Capital, Argentina).
 
