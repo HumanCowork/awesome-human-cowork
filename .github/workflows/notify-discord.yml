@@ -1,7 +1,7 @@
 name: Notify Discord on PR Merged
 
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
 
 jobs:
@@ -23,7 +23,11 @@ jobs:
           python3 -c "
           import os, json, urllib.request
 
-          webhook_url = os.environ['DISCORD_WEBHOOK_URL']
+          webhook_url = os.environ.get('DISCORD_WEBHOOK_URL', '')
+          if not webhook_url:
+              print('No webhook URL configured, skipping notification.')
+              exit(0)
+
           title = os.environ.get('PR_TITLE', '')
           number = os.environ.get('PR_NUMBER', '')
           url = os.environ.get('PR_URL', '')
