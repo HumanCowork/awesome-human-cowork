@@ -96,44 +96,6 @@ Para evitar fallos en la integración (`HTTP 400 Bad Request` en Discord):
 
 ---
 
-### 1.5 Gobernanza Operativa & Repositorio Privado `HumanCowork/HC-Agenda`
-
-Como agente de un Builder o Administrador, debés comprender y hacer cumplir la arquitectura de gobernanza de la organización:
-
-1. **Propósito Exclusivo de `HC-Agenda`:**
-   > [!NOTE]
-   > `HumanCowork/HC-Agenda` es el **repositorio privado oficial** reservado para la Mesa Chica y Builders de Human Cowork.  
-   > Contiene la gestión operativa, actas inmutables de reuniones y cronogramas de la comunidad. Los miembros externos no tienen acceso a él.
-
-2. **Diferenciación Operativa: Discord vs. GitHub (`Single Source of Truth`):**
-   - **Discord (`#builders` texto/voz):** Comunicación sincrónica, charlas en caliente, audios y debate de ideas.
-   - **GitHub (`HC-Agenda`):** Sistema de registro y ejecución asincrónica (*System of Record*).  
-   > [!IMPORTANT]
-   > **Regla de Oro:** En Discord se charla y se delibera; en GitHub se formaliza y se ejecuta.  
-   > Ningún compromiso o tarea operativa existe oficialmente hasta que cuenta con una **Issue asignada a un responsable**.
-
-3. **Uso de Milestones (Hitos Temporales):**
-   - Cada encuentro presencial tiene su **Milestone oficial** con fecha límite (ej. `Encuentro 02 — Septiembre 2026`, `Encuentro 03 — Octubre 2026`, etc.).
-   - Toda Issue de logística, charla, difusión o preparación debe estar obligatoriamente vinculada al Milestone del mes.
-
-4. **Uso Estricto de Plantillas Oficiales (`.github/ISSUE_TEMPLATE/` en `HC-Agenda`):**
-   Para evitar desorden y registros ambiguos, el agente de un Builder tiene prohibido crear Issues en blanco sin estructura. Debe guiar al usuario a utilizar la plantilla correspondiente:
-   - 🎙️ **`1_bloque_agenda.md`:** Proponer o estructurar una charla, dinámica o presentación en el itinerario (orador, tiempo estimado, requerimientos técnicos).
-   - 📦 **`2_tarea_logistica.md`:** Coordinación de espacio, materiales, proyector, sonido (ej. botonera cuack de myinstants.com) o recordatorios.
-   - 📌 **`3_acuerdo_followup.md`:** Registro de cuellos de botella y compromisos asumidos en el *Banco de Problemas* para darles seguimiento el mes siguiente.
-   - 🏛️ **`4_alianza_espacio.md`:** Gestión de venues físicos, acuerdos con coworkings (ej. Acre Cowork) o sponsors.
-   - 🎒 **`5_iniciativa_comunitaria.md`:** Organización de salidas grupales a eventos tech de Córdoba o hackathons.
-
-5. **Etiquetado Semántico Obligatorio:**
-   - Asignar siempre las etiquetas creadas: `bloque: apertura`, `bloque: charla`, `bloque: dinamica`, `tipo: logistica`, `tipo: difusion`, `tipo: follow-up`, `prioridad: alta`, `prioridad: media`.
-
-6. **Consolidación de Minutas en Git:**
-   - Al finalizar cada encuentro presencial, el agente debe asistir a los Builders a:
-     a) Cerrar las Issues completadas (`closed as completed`).
-     b) Consolidar el archivo de acta definitiva en `reuniones/YYYY-MM-DD-reunion-XX/agenda.md` vinculando las Issues resueltas.
-
----
-
 ## 🤝 Sección 2: Protocolo para Agentes de la Comunidad (Forks)
 
 Si sos un agente que asiste a un miembro de la comunidad para contribuir un nuevo recurso, seguí este protocolo para que el aporte sea aceptado sin fricción:
