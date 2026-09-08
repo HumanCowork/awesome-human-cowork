@@ -14,7 +14,12 @@
 
 <br>
 
-[**🧠 SKILLS**](skills/) • [**💬 PROMPTS**](prompts/) • [**⚙️ AUTOMATIZACIONES**](automatizaciones/) • [**📋 PLANTILLAS**](plantillas/) • [**🤝 CONTRIBUIR**](CONTRIBUTING.md) • [**💬 DISCORD**](https://discord.gg/BXcWzan8x)
+[![Skills](https://img.shields.io/badge/🧠_Skills-Directorio-10B981?style=flat-square)](skills/)
+[![Prompts](https://img.shields.io/badge/💬_Prompts-Banco-3B82F6?style=flat-square)](prompts/)
+[![Automatizaciones](https://img.shields.io/badge/⚙️_Automatizaciones-Flujos-8B5CF6?style=flat-square)](automatizaciones/)
+[![Plantillas](https://img.shields.io/badge/📋_Plantillas-Ver-F59E0B?style=flat-square)](plantillas/)
+[![Contribuir](https://img.shields.io/badge/🤝_Contribuir-Guía-EC4899?style=flat-square)](CONTRIBUTING.md)
+[![Discord](https://img.shields.io/badge/Discord-Comunidad-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/BXcWzan8x)
 
 </div>
 
