@@ -8,7 +8,9 @@ Las **Skills** son paquetes de instrucciones operativas, buenas prácticas y her
 
 * 🏗️ **[SDD Framework Suite (Spec-Driven Development)](sdd-framework/)**: Metodología completa de 9 fases para gobernar agentes de IA con especificaciones formales antes de codificar.
 * 🛠️ **[Skill Creator](skill-creator/)**: Protocolo meta-estándar para diseñar, estructurar y empaquetar nuevas skills de agentes de IA con convenciones canónicas.
+* 🧠 **[Engram Protocol (Persistent Memory)](engram-protocol/)**: Protocolo de memoria duradera para agentes de IA que enseña guardado proactivo (`mem_save`), convenciones de topic keys y resúmenes de sesión.
 
+---
 
 ## 📦 Categorías de Skills
 
