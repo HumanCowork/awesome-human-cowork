@@ -1,22 +1,29 @@
 # 🧠 Skills para Agentes de IA
 
-Las **Skills** son paquetes de instrucciones operativas, buenas prácticas y herramientas diseñadas para que los agentes de IA (en entornos como Google Antigravity IDE, Cursor, Claude Projects o Windsurf) sigan convenciones rigurosas de desarrollo.
+> Instrucciones operativas, buenas prácticas y protocolos estandarizados para que agentes de IA (Google Antigravity IDE, Cursor, Claude, Windsurf) sigan convenciones rigurosas de desarrollo.
+
+<div align="center">
+
+[**🏗️ METODOLOGÍA & SPECS**](#-metodología--gobernanza-de-agentes) • [**🧠 INFRAESTRUCTURA & META-PROTOCOLOS**](#-infraestructura--meta-protocolos) • [**💻 INSTALACIÓN LOCAL**](#-cómo-usarlas-en-tu-entorno-local) • [**🤝 CONTRIBUIR**](#-querés-aportar-una-skill)
+
+</div>
 
 ---
 
-## 📦 Skills Disponibles en la Biblioteca
+### 🏗️ Metodología & Gobernanza de Agentes
 
-* 🏗️ **[SDD Framework Suite (Spec-Driven Development)](sdd-framework/)**: Metodología completa de 9 fases para gobernar agentes de IA con especificaciones formales antes de codificar.
-* 🛠️ **[Skill Creator](skill-creator/)**: Protocolo meta-estándar para diseñar, estructurar y empaquetar nuevas skills de agentes de IA con convenciones canónicas.
-* 🧠 **[Engram Protocol (Persistent Memory)](engram-protocol/)**: Protocolo de memoria duradera para agentes de IA que enseña guardado proactivo (`mem_save`), convenciones de topic keys y resúmenes de sesión.
+| Skill | Enfoque / Qué Resuelve | Trigger Semántico | Versión |
+| :--- | :--- | :--- | :---: |
+| 🏗️ **[sdd-framework](sdd-framework/)** | Metodología de 9 fases (Spec-Driven Development) para pensar antes de codificar | `"sdd init"`, `"sdd explore"`, `"sdd propose"` | `v1.0` |
 
 ---
 
-## 📦 Categorías de Skills
+### 🧠 Infraestructura & Meta-Protocolos
 
-1. **Arquitectura y Clean Code:** Principios de diseño sólido, container-presentational pattern, screaming architecture.
-2. **Frontend & Design Systems:** Tokens semánticos, componentes accesibles, ergonomía móvil y web.
-3. **Testing y Calidad:** Patrones de testing automatizado y testing de interfaces.
+| Skill | Enfoque / Qué Resuelve | Trigger Semántico | Versión |
+| :--- | :--- | :--- | :---: |
+| 🛠️ **[skill-creator](skill-creator/)** | Meta-herramienta canónica para diseñar, estructurar y empaquetar nuevas skills | `"crear skill"`, `"new skill"`, `"documentar patrones"` | `v1.0` |
+| 🧠 **[engram-protocol](engram-protocol/)** | Protocolo de memoria duradera con Engram MCP (guardado proactivo y resúmenes) | `"engram"`, `"memoria persistente"`, `"mem_save"` | `v1.0` |
 
 ---
 
